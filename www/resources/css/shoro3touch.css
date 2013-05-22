@@ -1,20 +1,3 @@
-/*@font-face {
-	font-family: 'LSANS';
-	src: url('../LSANS.eot?#iefix');
-	src: local('LSANS'), url('../LSANS.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
- 
-@font-face {
-	font-family: 'GOTHMBOK';
-	src: url('../GOTHMBOK.eot?#iefix');
-	src: local('GOTHMBOK'), url('../GOTHMBOK.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-} */
-
 .filters{font-family: GOTHMBOK, LSANS; font-size: 12.5px; font-style:normal;color:Black;}
 
 .x-badge-booking {
@@ -138,7 +121,7 @@
 	display: none;
 }
 .cart {
-    background-image:url(/Touch/imgs/shopping_cart_recap.png);
+    background-image:url(../../imgs/shopping_cart_recap.png);
     background-repeat: no-repeat;
     background-position: center;        
 }

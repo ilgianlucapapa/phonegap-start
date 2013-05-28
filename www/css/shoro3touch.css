@@ -1,4 +1,21 @@
-.filters{font-family: "PT Sans Caption"; font-size: 12.5px; font-style:normal;color:Black;}
+/*@font-face {
+	font-family: 'LSANS';
+	src: url('../LSANS.eot?#iefix');
+	src: local('LSANS'), url('../LSANS.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+ 
+@font-face {
+	font-family: 'GOTHMBOK';
+	src: url('../GOTHMBOK.eot?#iefix');
+	src: local('GOTHMBOK'), url('../GOTHMBOK.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+} */
+
+.filters{font-family: 'GOTHMBOK', 'LSANS'; font-size: 12.5px; font-style:normal;color:Black;}
 
 .x-badge-booking {
 	-webkit-background-clip: padding;
@@ -121,7 +138,7 @@
 	display: none;
 }
 .cart {
-    background-image:url(../imgs/shopping_cart_recap.png);
+    background-image:url(/Touch/imgs/shopping_cart_recap.png);
     background-repeat: no-repeat;
     background-position: center;        
 }
@@ -144,7 +161,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 
 #containerFormLogin {
 	border: 1px solid #131111;
-	background: #403b3b url('../imgs/uiFlat.png') repeat;
+	background: #403b3b url('../../imgs/uiFlat.png') repeat;
 	color: #ebeaea;
 	font-weight: normal;
 }

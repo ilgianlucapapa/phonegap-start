@@ -15,6 +15,19 @@
 	font-style: normal;
 } */
 
+
+a:link {
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+
+a:visited {
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+
+a:hover {
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+
+a:active {
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+
 .filters{font-family: 'GOTHMBOK', 'LSANS'; font-size: 12.5px; font-style:normal;color:Black;}
 
 .x-badge-booking {
@@ -169,4 +182,9 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 #lblConfiguration{
   color: #fff !important;     
   text-shadow: 0px 1px rgba(255,255,255,.3);   
+}
+
+.x-dataitem-cart{
+	margin-left: 5px;
+	margin-bottom: 3px;	
 }

@@ -188,3 +188,9 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 	margin-left: 5px;
 	margin-bottom: 3px;	
 }
+
+.camera {
+    background-image:url('../camera.png');
+    background-repeat: no-repeat;
+    background-position: center;        
+}

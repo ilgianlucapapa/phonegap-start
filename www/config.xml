@@ -67,6 +67,8 @@
     <plugin name="Globalization" value="CDVGlobalization" />
     <plugin name="InAppBrowser" value="CDVInAppBrowser" />
 </plugins>
+
+<gap:plugin name="BarcodeScanner" /> <!-- latest release -->
     
     <!--
         <gap:plugin name="Example" />

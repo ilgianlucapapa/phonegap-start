@@ -194,3 +194,55 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
     background-repeat: no-repeat;
     background-position: center;        
 }
+
+#containerSuperUser {
+	border: 1px solid #131111;
+	background: #403b3b url('../imgs/uiFlat.png') repeat;	
+	font-weight: normal;
+	font-family: 'GOTHMBOK', 'LSANS'; 
+	font-size: 20px; 
+	font-style:normal;
+	color:#ffffff;
+}
+
+.insertOrders {
+    background-image:url('../imgs/insertOrders.png');
+    background-repeat: no-repeat;
+    background-position: center;        
+    height: 128px  !important;
+    width: 128px  !important;    
+}
+
+.reportOrders {
+    background-image:url('../imgs/reportOrders.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 128px !important;
+    width: 128px !important;
+}
+
+.sendOrders {
+    background-image:url('../imgs/sendOrders.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 128px  !important;
+    width: 128px  !important;      
+}
+
+.homeShoro {
+    background-image:url('../imgs/homegpa.png');
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.odd {
+	border: 1px solid #131111;
+	background: #cdcdcd;
+	font-weight: normal;	
+}
+
+.even {
+	border: 1px solid #131111;
+	background: #f7f6f6;
+	font-weight: normal;
+}

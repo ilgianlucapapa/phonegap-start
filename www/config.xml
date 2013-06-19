@@ -120,6 +120,9 @@
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
     <access origin="gianostf02.gianos.local" />    
     <access origin="gnsshorodev" />
+    <access origin="gianosdpi" />
+    <access origin="192.168.177.104" />
+    <access origin="192.168.177.198" />
     <access origin="phonegap.com" subdomains="true" />
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/

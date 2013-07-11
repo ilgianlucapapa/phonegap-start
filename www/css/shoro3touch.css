@@ -246,3 +246,15 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 	background: #f7f6f6;
 	font-weight: normal;
 }
+
+.reportShoro {
+    background-image:url('../imgs/report.png');
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.reloadShoro {
+    background-image:url('../imgs/reload.png');
+    background-repeat: no-repeat;
+    background-position: center;    
+}

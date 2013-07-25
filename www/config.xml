@@ -68,7 +68,7 @@
     <plugin name="InAppBrowser" value="CDVInAppBrowser" />
 </plugins>
 
-<gap:plugin name="BarcodeScanner" /> <!-- latest release -->
+<gap:plugin name="com.phonegap.plugins.barcodescanner" /> <!-- latest release -->
     
     <!--
         <gap:plugin name="Example" />

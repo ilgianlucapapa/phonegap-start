@@ -393,22 +393,23 @@ to { -webkit-transform: translateX(0px); }
 .nav-listUsers{
    height: 100%;
 	/*background: #222;*/
-	color: rgb(34, 34, 34) !important;
+	color: #222;/*rgb(223, 223, 223);*/
 	-webkit-box-shadow: inset -15px 0px 30px -15px rgba(0,0,0,1);
 	position: absolute !important;
+	background-image: none  !important;
 	left: 0;
 	z-index: 0;
 }
 
 .nav-listUsers .x-list-item{
-	color: rgb(223, 223, 223);
+	color: #222;/*rgb(223, 223, 223);*/
 	border-bottom: 1px solid #000 !important;
 	border-top: 1px solid #333 !important;
 	font-size: 15px;
 }
 
 .nav-listUsers .x-item-selected{
-	color: rgb(223, 223, 223);
+	color: #222;/*rgb(223, 223, 223);*/
 	border-bottom: 1px solid #000 !important;
 	border-top: 1px solid #333 !important;
 	font-size: 15px;

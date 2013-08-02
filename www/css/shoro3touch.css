@@ -427,3 +427,8 @@ to { -webkit-transform: translateX(0px); }
 
 /* End Navigation Menu Users */
 
+.toolsDefault {
+    background-image:url('../imgs/tools.png');
+    background-repeat: no-repeat;
+    background-position: center;    
+}

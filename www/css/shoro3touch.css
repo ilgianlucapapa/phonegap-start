@@ -432,3 +432,10 @@ to { -webkit-transform: translateX(0px); }
     background-repeat: no-repeat;
     background-position: center;    
 }
+
+.notOrders {
+    background-image:url('../imgs/notOrders.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5    
+}

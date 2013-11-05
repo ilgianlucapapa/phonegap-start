@@ -117,7 +117,8 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="http://127.0.0.1*"/> <!-- allow local pages --> 
+    <access origin="http://127.0.0.1*"/> <!-- allow local pages http://77.238.22.188:2222 -->
+    <access origin="77.238.22.188" />
     <access origin="*" />
     <access origin="phonegap.com" subdomains="true" />
     <!--

@@ -439,3 +439,8 @@ to { -webkit-transform: translateX(0px); }
     background-position: center;
     opacity: 0.5    
 }
+
+#btnSettings{
+	display: none !important;	
+}
+

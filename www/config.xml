@@ -117,12 +117,7 @@
 
         Otherwise, you can specify specific domains:
     -->
-    <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
-    <access origin="gianostf02.gianos.local" />    
-    <access origin="gnsshorodev" />
-    <access origin="gianosdpi" />    
-    <access origin="192.168.134.198" />
-    <access origin="192.168.133.104" />    
+    <access origin="http://127.0.0.1*"/> <!-- allow local pages --> 
     <access origin="*" />
     <access origin="phonegap.com" subdomains="true" />
     <!--

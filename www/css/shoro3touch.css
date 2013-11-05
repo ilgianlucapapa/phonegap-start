@@ -17,16 +17,16 @@
 
 
 a:link {
-  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black !important; }
 
 a:visited {
-  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black !important; }
 
 a:hover {
-  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black !important; }
 
 a:active {
-  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black; }
+  font-family: 'GOTHMBOK', 'LSANS'; font-size: 14px; font-style:normal;color:Black !important; }
 
 .filters{font-family: 'GOTHMBOK', 'LSANS'; font-size: 12.5px; font-style:normal;color:Black;}
 
@@ -151,7 +151,7 @@ a:active {
 	display: none;
 }
 .cart {
-    background-image:url('../imgs/shopping_cart_recap.png');
+    background-image:url(/Touch/imgs/shopping_cart_recap.png);
     background-repeat: no-repeat;
     background-position: center;        
 }
@@ -174,7 +174,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 
 #containerFormLogin {
 	border: 1px solid #131111;
-	background: #403b3b url('../imgs/uiFlat.png') repeat;
+	background: #403b3b url('../../imgs/uiFlat.png') repeat;
 	color: #ebeaea;
 	font-weight: normal;
 }
@@ -190,14 +190,14 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .camera {
-    background-image:url('../imgs/camera.png');
+    background-image:url('/Touch/imgs/camera.png');
     background-repeat: no-repeat;
     background-position: center;        
 }
 
 #containerSuperUser {
 	border: 1px solid #131111;
-	background: #403b3b url('../imgs/uiFlat.png') repeat;	
+	background: #403b3b url('../../imgs/uiFlat.png') repeat;	
 	font-weight: normal;
 	font-family: 'GOTHMBOK', 'LSANS'; 
 	font-size: 20px; 
@@ -206,7 +206,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .insertOrders {
-    background-image:url('../imgs/insertOrders.png');
+    background-image:url('/Touch/imgs/insertOrders.png');
     background-repeat: no-repeat;
     background-position: center;        
     height: 128px  !important;
@@ -214,7 +214,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .reportOrders {
-    background-image:url('../imgs/reportOrders.png');
+    background-image:url('/Touch/imgs/reportOrders.png');
     background-repeat: no-repeat;
     background-position: center; 
     height: 128px !important;
@@ -222,7 +222,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .sendOrders {
-    background-image:url('../imgs/sendOrders.png');
+    background-image:url('/Touch/imgs/sendOrders.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 128px  !important;
@@ -230,7 +230,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .homeShoro {
-    background-image:url('../imgs/homegpa.png');
+    background-image:url('/Touch/imgs/homegpa.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
@@ -248,25 +248,25 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .reportShoro {
-    background-image:url('../imgs/report.png');
+    background-image:url('/Touch/imgs/report.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .reloadShoro {
-    background-image:url('../imgs/reload.png');
+    background-image:url('/Touch/imgs/reload.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .userMgmtDefault {
-    background-image:url('../imgs/usermanagement.png');
+    background-image:url('/Touch/imgs/usermanagement.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .userMgmtDetail {
-    background-image:url('../imgs/usermanagementedit.png');
+    background-image:url('/Touch/imgs/usermanagementedit.png');
     background-repeat: no-repeat;
     background-position: left top;    
 }
@@ -318,30 +318,27 @@ to { -webkit-transform: translateX(0px); }
 
 .nav-list{
    height: 100%;
-	/*background: #222;*/
-	color: #222;/*rgb(223, 223, 223);*/
+	background: #222;
 	-webkit-box-shadow: inset -15px 0px 30px -15px rgba(0,0,0,1);
 	position: absolute !important;
-	background-image: none  !important;
 	left: 0;
-	z-index: 0;
 }
 
 .nav-list .x-list-item{
-	color: #222;/*rgb(223, 223, 223);*/
-	border-bottom: 1px solid #000 !important;
-	border-top: 1px solid #333 !important;
-	font-size: 15px;
+				color: rgb(223, 223, 223);
+				border-bottom: 1px solid #000 !important;
+				border-top: 1px solid #333 !important;
+				font-size: 15px;
 }
 
 .nav-list .x-item-selected{
-	color: #222;/*rgb(223, 223, 223);*/
-	border-bottom: 1px solid #000 !important;
-	border-top: 1px solid #333 !important;
-	font-size: 15px;
-	text-decoration: underline;
-	background-image: none  !important;
-	-webkit-box-shadow: inset -15px 0px 30px -15px rgba(0,0,0,1);
+				color: rgb(223, 223, 223);
+				border-bottom: 1px solid #000 !important;
+				border-top: 1px solid #333 !important;
+				font-size: 15px;
+				text-decoration: underline;
+				background-image: none  !important;
+				-webkit-box-shadow: inset -15px 0px 30px -15px rgba(0,0,0,1);
 }
 
 /* Nav menu view ENDS */
@@ -395,8 +392,7 @@ to { -webkit-transform: translateX(0px); }
 
 .nav-listUsers{
    height: 100%;
-	/*background: #222;*/
-	color: #222;/*rgb(223, 223, 223);*/
+	color: #222;
 	-webkit-box-shadow: inset -15px 0px 30px -15px rgba(0,0,0,1);
 	position: absolute !important;
 	background-image: none  !important;
@@ -405,14 +401,14 @@ to { -webkit-transform: translateX(0px); }
 }
 
 .nav-listUsers .x-list-item{
-	color: #222;/*rgb(223, 223, 223);*/
+	color: #222;
 	border-bottom: 1px solid #000 !important;
 	border-top: 1px solid #333 !important;
 	font-size: 15px;
 }
 
 .nav-listUsers .x-item-selected{
-	color: #222;/*rgb(223, 223, 223);*/
+	color: #222;
 	border-bottom: 1px solid #000 !important;
 	border-top: 1px solid #333 !important;
 	font-size: 15px;
@@ -421,6 +417,7 @@ to { -webkit-transform: translateX(0px); }
 	-webkit-box-shadow: inset -15px 0px 30px -15px rgba(0,0,0,1);
 }
 
+
 /* Nav menu view ENDS */
 
 /* For left side navigation ENDS */
@@ -428,13 +425,13 @@ to { -webkit-transform: translateX(0px); }
 /* End Navigation Menu Users */
 
 .toolsDefault {
-    background-image:url('../imgs/tools.png');
+    background-image:url('/Touch/imgs/tools.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .notOrders {
-    background-image:url('../imgs/notOrders.png');
+    background-image:url('/Touch/imgs/notOrders.png');
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.5    

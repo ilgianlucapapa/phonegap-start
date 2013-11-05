@@ -206,7 +206,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .insertOrders {
-    background-image:url('/Touch/imgs/insertOrders.png');
+    background-image:url('../imgs/insertOrders.png');
     background-repeat: no-repeat;
     background-position: center;        
     height: 128px  !important;
@@ -214,7 +214,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .reportOrders {
-    background-image:url('/Touch/imgs/reportOrders.png');
+    background-image:url('../imgs/reportOrders.png');
     background-repeat: no-repeat;
     background-position: center; 
     height: 128px !important;
@@ -222,7 +222,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .sendOrders {
-    background-image:url('/Touch/imgs/sendOrders.png');
+    background-image:url('../imgs/sendOrders.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 128px  !important;
@@ -230,7 +230,7 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .homeShoro {
-    background-image:url('/Touch/imgs/homegpa.png');
+    background-image:url('../imgs/homegpa.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
@@ -248,25 +248,25 @@ background-image: linear-gradient(top, #feff3e,#f8f900 3%,#f8f900)  !important;
 }
 
 .reportShoro {
-    background-image:url('/Touch/imgs/report.png');
+    background-image:url('../imgs/report.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .reloadShoro {
-    background-image:url('/Touch/imgs/reload.png');
+    background-image:url('../imgs/reload.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .userMgmtDefault {
-    background-image:url('/Touch/imgs/usermanagement.png');
+    background-image:url('../imgs/usermanagement.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .userMgmtDetail {
-    background-image:url('/Touch/imgs/usermanagementedit.png');
+    background-image:url('../imgs/usermanagementedit.png');
     background-repeat: no-repeat;
     background-position: left top;    
 }
@@ -425,13 +425,13 @@ to { -webkit-transform: translateX(0px); }
 /* End Navigation Menu Users */
 
 .toolsDefault {
-    background-image:url('/Touch/imgs/tools.png');
+    background-image:url('../imgs/tools.png');
     background-repeat: no-repeat;
     background-position: center;    
 }
 
 .notOrders {
-    background-image:url('/Touch/imgs/notOrders.png');
+    background-image:url('../imgs/notOrders.png');
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.5    
